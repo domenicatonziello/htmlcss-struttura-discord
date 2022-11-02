@@ -7,12 +7,13 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    /*padding: 20px; */
 }
 /* HEADER */
 header{
     background-color: rgb(173,216,230);
     height: 100px;
+    padding: 20px;
 }
 .flex-container{
     display: flex;
@@ -39,12 +40,41 @@ nav{
 }
 .blue-backg{
     background-color: rgb(0, 0, 139);
-    height: 500px;
-    padding: 40px 100px;
+    min-height: 450px;
+    padding: 20px;
+    
 }
-.pink{
+.purple{
     background-color: rgb(238,130,238);
     border: 2px dashed black;
     width: 900px;
     height: 400px;
+}
+/* MAIN */
+.backg{
+    min-height: 600px;
+    margin: 5px auto;
+    padding: 40px;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
+.lightblue{
+    border: 2px dashed black;
+    background-color: rgb(30,144,255);
+    min-height: 500px;
+    flex-basis: 60%;
+}
+.pink{
+    border: 2px dashed black;
+    background-color: rgb(255,192,203);
+    flex-basis: 40%;
+}
+.lightgrey{
+    background-color: rgb(211, 211, 211);
+}
+.green{
+    background-color: rgb(34,139,34);
+    border: 2px dashed black;
+    min-height: 800px;
 }
