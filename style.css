@@ -10,6 +10,9 @@
     /*padding: 20px; */
 }
 /* HEADER */
+.debug .border {
+    border: 2px dashed black;
+  }
 header{
     background-color: rgb(173,216,230);
     height: 100px;
@@ -25,7 +28,6 @@ nav{
 .navigation{
     padding: 15px;  
     background-color: rgb(218,165,32);
-    border: 2px dashed black;
 }
 .left-col,.right-col{
     flex-basis: calc(100% / 3);
@@ -37,14 +39,15 @@ nav{
 .right-col{
     text-align: right;
 }
-.blue-backg{
+.jumbotron{
     background-color: rgb(0, 0, 139);
     min-height: 450px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
-.purple{
+.content{
     background-color: rgb(238,130,238);
-    border: 2px dashed black;
     width: 900px;
     height: 400px;
 }
@@ -57,38 +60,32 @@ nav{
 .white{
     background-color: rgb(255, 255, 255);
 }
-.lightblue{
-    border: 2px dashed black;
+.large-col{
     background-color: rgb(30,144,255);
     min-height: 500px;
     flex-basis: 60%;
 }
-.pink{
-    border: 2px dashed black;
+.small-col{
     background-color: rgb(255,192,203);
     flex-basis: 40%;
 }
 .lightgrey{
     background-color: rgb(211, 211, 211);
 }
-.green{
+.full-col{
     background-color: rgb(34,139,34);
-    border: 2px dashed black;
     min-height: 800px;
 }
 .grey{
     background-color: rgb(35,39,42);
-    border-bottom: 2px solid white;
 }
-.fuchsia{
+.large{
     background-color: rgb(240,128,128) ;
-    border: 2px dashed black;
     min-height: 600px;
     flex-basis: 30%;
 }
-.aqua{
+.small{
     background-color: rgb(32,178,170);
-    border: 2px dashed white;
     flex-basis: calc(70%/ 4);
 }
 /* FOOTER */
@@ -98,6 +95,5 @@ nav{
 }
 .foot{
     background-color: rgb(255,182,193);
-    border: 2px dashed black;
     padding: 10px;
 }
